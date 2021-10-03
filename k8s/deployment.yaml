@@ -20,3 +20,8 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8080
+        env:
+          - name: DATABASE_URL
+            value: mongodb://mongodb-service:27017
+          - name: DATABASE_NAME
+            value: go_mongo
