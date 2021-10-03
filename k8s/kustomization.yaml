@@ -9,4 +9,4 @@ namespace: argocd-golang
 images:
 - name: matheusjustino/argocd-golang
   newName: matheusjustino/argocd-golang
-  newTag: db14ad8717ee9b747baef372b41428ff3f15088f
+  newTag: 92ee53c24dbacd20d823ab99acb078d9b99e7528
