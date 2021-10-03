@@ -1,0 +1,25 @@
+### CREATE USER
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+	"name": "Matheus2",
+	"email": "matheusz2_7@hotmail.com"
+}
+
+### LIST USERS
+GET http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+### UPDATE USER
+PUT http://localhost:8080/api/v1/users/6157e7c60f8cd08bbf3d5d8e
+Content-Type: application/json
+
+{
+	"name": "Matheus2 upt",
+	"email": "matheusz2upt_7@hotmail.com"
+}
+
+### DELETE USER
+DELETE http://localhost:8080/api/v1/users/6159d8571293e66e9c6fcc0f
+Content-Type: application/json

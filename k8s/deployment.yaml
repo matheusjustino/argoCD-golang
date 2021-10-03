@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocd-golang-deployment
+spec:
+  selector:
+    matchLabels:
+      app: argocd-golang
+  template:
+    metadata:
+      labels:
+        app: argocd-golang
+    spec:
+      containers:
+      - name: argocd-golang
+        image: matheusjustino/argocd-golang
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
