@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 namespace: argocd-golang
 
 images:
 - name: matheusjustino/argocd-golang
   newName: matheusjustino/argocd-golang
-  newTag: v1
+  newTag: 49ec61e70be1b0c90124dc2f5fec18b949e309d5
