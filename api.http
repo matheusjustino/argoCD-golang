@@ -3,8 +3,8 @@ POST http://localhost:9090/api/v1/users
 Content-Type: application/json
 
 {
-	"name": "Matheus",
-	"email": "matheusz_7@hotmail.com"
+	"name": "Matheus2",
+	"email": "matheusz2_7@hotmail.com"
 }
 
 ### LIST USERS
