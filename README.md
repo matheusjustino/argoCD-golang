@@ -1,6 +1,6 @@
 ## DESCRIÇÃO
 
-- Repositório para estudos de Continuos Delivery com o Argo no Github.
+- Repositório para estudos de Kubernetes e Continuos Delivery com o Argo no Github.
 - Argo doc.: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 ## Utilizando o Argo
